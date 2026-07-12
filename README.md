@@ -1,6 +1,6 @@
-# 🚍 TransitOps — Smart Transport Operations Platform
+# 🚍 TransitOps Smart Transport Operations Platform
 
-TransitOps is an all-in-one smart transport management platform designed to help transit companies, fleet operators, and logistics teams manage vehicles, drivers, routes, tickets, and live operations from a single dashboard — powered by AI-driven predictions and real-time tracking.
+TransitOps is an all-in-one smart transport management platform designed to help transit companies, fleet operators, and logistics teams manage vehicles, drivers, routes, tickets, and live operations from a single dashboard powered by AI-driven predictions and real-time tracking.
 
 ---
 
