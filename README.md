@@ -21,7 +21,7 @@ TransitOps is an all-in-one smart transport management platform designed to help
 
 ## 🧭 Overview
 
-TransitOps centralizes the day-to-day operations of a transport network — vehicles, drivers, routes, tickets, and revenue — into one platform. It combines live GPS-based tracking with an AI module that predicts delays, suggests optimized routes, and forecasts fuel and maintenance needs, giving operators the tools to run a smarter, more reliable fleet.
+TransitOps centralizes the day-to-day operations of a transport network vehicles, drivers, routes, tickets, and revenue into one platform. It combines live GPS-based tracking with an AI module that predicts delays, suggests optimized routes, and forecasts fuel and maintenance needs, giving operators the tools to run a smarter, more reliable fleet.
 
 ---
 
