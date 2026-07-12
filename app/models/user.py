@@ -1,4 +1,4 @@
-"\"\"\"Pydantic models for TransitOps.\"\"\"
+"""Pydantic models for TransitOps."""
 from datetime import datetime, timezone
 from typing import Optional, List
 from pydantic import BaseModel, Field, EmailStr, ConfigDict
@@ -252,4 +252,3 @@ class ChatMessage(Base):
 class ChatInput(Base):
     message: str
     session_id: Optional[str] = None
-"

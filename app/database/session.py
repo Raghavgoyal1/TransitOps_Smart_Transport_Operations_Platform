@@ -1,4 +1,4 @@
-"\"\"\"MongoDB connection singleton.\"\"\"
+"""MongoDB connection singleton."""
 import os
 from motor.motor_asyncio import AsyncIOMotorClient
 from dotenv import load_dotenv
@@ -9,4 +9,4 @@ load_dotenv(Path(__file__).parent / \".env\")
 mongo_url = os.environ[\"MONGO_URL\"]
 client = AsyncIOMotorClient(mongo_url)
 db = client[os.environ[\"DB_NAME\"]]
-"
+

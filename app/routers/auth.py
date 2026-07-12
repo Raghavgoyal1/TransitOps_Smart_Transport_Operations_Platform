@@ -1,4 +1,4 @@
-"\"\"\"Authentication routes.\"\"\"
+"""Authentication routes."""
 from fastapi import APIRouter, HTTPException, Depends
 from db import db
 from models import RegisterInput, LoginInput, TokenOut, User, gen_id, now_iso
@@ -49,4 +49,3 @@ async def login(data: LoginInput):
 async def me(user: dict = Depends(get_current_user)):
     doc = await db.users.find_one({\"id\": user[\"id\"]}, {\"_id\": 0, \"password_hash\": 0})
     return doc
-"
